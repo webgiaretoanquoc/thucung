@@ -1,0 +1,211 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.section-tin-tuc .post-title{
+	min-height: 38px;
+}
+.section-tin-tuc .from_the_blog_excerpt {
+	min-height: 60px;
+} 
+body.home #mega_menu{
+	display: none
+}
+.row-dinh-duong{
+	padding-top: 40px;
+}
+.header-bottom-nav li{
+	margin: 0px 18px;
+}
+.header-bottom-nav li a{
+	font-size: 15px ;
+}
+.section-dinh-duong .box {
+	border-bottom: 2px solid #e51f28;
+	border-radius: 10px;
+	padding-bottom: 50px;
+	padding-top: 17px;
+	background:url('images/bg-parchment.png');
+}
+
+.dk-email label{
+	width: 75%;
+	float: left;  
+}
+.dk-email .wpcf7-submit{
+	line-height: 34px !important;
+	min-height: 10px !important;
+	float: right;
+}
+.p-dk-email{
+	font-weight: bold;
+	color: white;
+	padding-bottom: 21px !important;
+}
+.is-divider{
+	background: transparent;
+}
+.product-title a{
+	min-height: 40px;
+}
+span.amount{
+	color: red
+}
+.product-small .add-to-cart-button a{
+	border-radius: 10px; 
+}
+
+.full-width .ubermenu-nav, .container, .row {
+	max-width: 1170px;
+}
+.flex-right ul li a{
+	text-transform: initial !important;
+	font-size: 16px;
+}
+.div-sp-trai{
+	padding-bottom: 0px !important;
+	background: white;
+}
+.div-sp-phai{
+	padding-bottom: 0px;
+}
+.div-sp-trai .tieu-de {
+
+	padding: 5px;
+	margin-top: 7px;
+}
+.div-sp-trai .tieu-de h3{
+	color: #e51f28;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.div-sp-trai .tieu-de-cho{
+	background: url(images/shopcho.png);
+} 
+.div-sp-trai .tieu-de-meo{
+	background: url(images/shopmeo.png);
+} 
+.title-sp-ban-chay{
+	color: #e74c3c
+}
+.title-ban-chay h3{
+	color: #e74c3c;
+	text-transform: uppercase;
+}
+.title-ban-chay{
+	padding: 6px;
+	border-bottom: 1px solid #e1e1e1;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	/* border-top: 1px solid gray; */
+	border-top: 1px solid #e1e1e1;
+}
+.title-ban-chay h3{
+	padding-top: 5px;
+	margin-bottom: 0px;
+}
+.div-xanh ul li{
+	list-style: disc;
+	margin-left: 1.3em;
+	color: #a0cb00
+}
+.div-cam ul li{
+	list-style: disc;
+	margin-left: 1.3em;
+	color: #fea400
+}
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+.header-bg-image{
+	background: transparent !important;
+}
+@media(min-width: 1023px) and (max-width:1025px){
+	.header-bottom-nav li a{
+		font-size: 13px !important;
+	}
+
+}
+@media(min-width: 1023px){
+	.section-dinh-duong .box .box-image{
+		margin-top: -78px;
+	}
+}
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+}
